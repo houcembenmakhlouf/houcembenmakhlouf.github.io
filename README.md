@@ -14,7 +14,7 @@ This is a **fully responsive** personal portfolio website built with **HTML, CSS
 ---
 
 ## **📂 Project Structure**
-
+```plaintext
 📁 portfolio-website
 │── 📁 assets
 │ │── 📁 images # Stores all website images
@@ -25,7 +25,7 @@ This is a **fully responsive** personal portfolio website built with **HTML, CSS
 │ │── app.js # JavaScript for animations & effects
 │── index.html # Main HTML file
 │── README.md # Project documentation
-
+```
 ---
 
 ## **🛠️ Technologies Used**
