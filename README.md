@@ -60,7 +60,7 @@ Want to personalize this portfolio? Modify the following:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/portfolio-website.git
+git clone https://github.com/houcembenmakhlouf/houcembenmakhlouf.github.io.git
 
 
 Open index.html in any browser
