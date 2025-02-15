@@ -51,7 +51,7 @@ Want to personalize this portfolio? Modify the following:
 
 ## **📷 Preview Screenshot**
 
-![Portfolio Preview](assets/images/portfolio-preview.png)
+![Portfolio Preview](assets/website_screenshot.png)
 
 ---
 
