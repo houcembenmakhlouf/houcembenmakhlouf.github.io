@@ -58,6 +58,9 @@ p {
   transition: 0.3s ease;
   transition-property: background-color, color;
 }
+#hero .cta {
+  margin-bottom: 30px; /* Creates space below the button */
+}
 .cta:hover {
   color: white;
   background-color: crimson;
@@ -588,9 +591,119 @@ p {
   }
 }
 /* End Keyframes */
+/* Mobile-Specific Fixes */
+@media only screen and (max-width: 767px) {
+  /* General Adjustments */
 
+  .service-top p {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px); /* Ensures text doesn't overflow */
+  }
+
+  /* Push hero content down below the fixed header */
+  #hero .hero {
+    padding-top: 60px; /* Adjust based on header height */
+  }
+
+  /* Reduce typewriter text size */
+  .typewriter {
+    font-size: 2.5rem !important; /* Force smaller font */
+  }
+
+  .typewriter-text {
+    font-size: 2.5rem !important; /* Match the typewriter */
+  }
+  html {
+    font-size: 8px; /* Smaller base font size for mobile */
+  }
+
+  .container {
+    padding: 0 20px; /* Add padding to avoid content touching the edges */
+  }
+
+  /* Header */
+  #header .brand h1 {
+    font-size: 2.5rem; /* Smaller brand name */
+  }
+
+  #header .hamburger {
+    transform: scale(0.7); /* Smaller hamburger icon */
+    margin-right: 10px;
+  }
+
+  /* Hero Section */
+  #hero h1 {
+    font-size: 3rem; /* Smaller hero text */
+  }
+
+  .social-icons a {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem; /* Smaller social icons */
+  }
+
+  .cta {
+    font-size: 1.8rem; /* Smaller call-to-action button */
+    padding: 8px 20px;
+  }
+
+  /* Services Section */
+  #services .service-item {
+    flex-basis: 100%; /* Full width for service items */
+    margin: 10px; /* Adjust margins */
+  }
+
+  /* Projects Section */
+  #projects .project-item {
+    flex-direction: column; /* Stack project info and image vertically */
+  }
+
+  #projects .project-info,
+  #projects .project-img {
+    flex-basis: 100%; /* Full width for project info and image */
+  }
+
+  #projects .project-img {
+    height: 200px; /* Smaller project image height */
+  }
+
+  /* About Section */
+  #about .about {
+    flex-direction: column; /* Stack about content vertically */
+  }
+
+  #about .col-left {
+    width: 100%;
+    max-width: 300px; /* Limits image width */
+    margin: 0 auto 30px; /* Centers image + adds bottom margin */
+    padding-left: 0; /* Remove desktop padding */
+  }
+
+  #about .col-right {
+    text-align: center; /* Center-align text */
+  }
+
+  /* Contact Section */
+  #contact .contact-items {
+    flex-direction: column; /* Stack contact items vertically */
+  }
+
+  #contact .contact-item {
+    width: 100%; /* Full width for contact items */
+    margin: 10px 0;
+  }
+
+  /* Footer */
+  #footer h2 {
+    font-size: 1.5rem; /* Smaller footer text */
+  }
+}
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
+  #hero .hero {
+    padding-top: 60px; /* Adjust based on header height */
+  }
   .cta {
     font-size: 2.5rem;
     padding: 20px 60px;
@@ -601,7 +714,7 @@ p {
 
   /* Hero */
   #hero h1 {
-    font-size: 7rem;
+    font-size: 5rem;
   }
   /* End Hero */
 
@@ -733,11 +846,11 @@ p {
 .typewriter-text {
   color: crimson; /* Red text effect */
   font-weight: bold;
-  font-size: 7rem;
+  font-size: 4rem;
 }
 
 .typewriter {
-  font-size: 7rem;
+  font-size: 4rem;
   color: white;
 }
 /* Blinking Cursor Animation */
