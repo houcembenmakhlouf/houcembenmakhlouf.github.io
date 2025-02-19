@@ -599,6 +599,12 @@ p {
   }
 }
 /* End Keyframes */
+/* Optional: Adjust font size for very small screens */
+@media only screen and (max-width: 480px) {
+  #footer p {
+    font-size: 1.2rem !important; /* Slightly smaller font */
+  }
+}
 /* Mobile-Specific Fixes */
 
 @media only screen and (max-width: 767px) {
