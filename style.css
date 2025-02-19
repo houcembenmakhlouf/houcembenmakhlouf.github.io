@@ -557,6 +557,7 @@ p {
   filter: grayscale(0);
 }
 #footer p {
+  white-space: nowrap; /* Prevent text wrapping */
   color: white;
   font-size: 1.3rem;
 }
