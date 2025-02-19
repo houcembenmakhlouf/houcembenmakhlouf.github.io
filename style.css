@@ -558,6 +558,9 @@ p {
 }
 #footer p {
   white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Add "..." if text overflows */
+  max-width: 100%; /* Ensure it doesn't exceed container width */
   color: white;
   font-size: 1.3rem;
 }
