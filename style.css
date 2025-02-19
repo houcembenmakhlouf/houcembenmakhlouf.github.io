@@ -592,6 +592,7 @@ p {
 }
 /* End Keyframes */
 /* Mobile-Specific Fixes */
+
 @media only screen and (max-width: 767px) {
   /* General Adjustments */
 
@@ -608,11 +609,11 @@ p {
 
   /* Reduce typewriter text size */
   .typewriter {
-    font-size: 2.5rem !important; /* Force smaller font */
+    font-size: 5rem !important; /* Force smaller font */
   }
 
   .typewriter-text {
-    font-size: 2.5rem !important; /* Match the typewriter */
+    font-size: 5rem !important; /* Match the typewriter */
   }
   html {
     font-size: 8px; /* Smaller base font size for mobile */
@@ -634,7 +635,7 @@ p {
 
   /* Hero Section */
   #hero h1 {
-    font-size: 3rem; /* Smaller hero text */
+    font-size: 5rem; /* Smaller hero text */
   }
 
   .social-icons a {
@@ -674,10 +675,9 @@ p {
   }
 
   #about .col-left {
-    width: 100%;
-    max-width: 300px; /* Limits image width */
-    margin: 0 auto 30px; /* Centers image + adds bottom margin */
-    padding-left: 0; /* Remove desktop padding */
+    width: 100%; /* Full width for profile image */
+    height: auto;
+    margin-bottom: 20px;
   }
 
   #about .col-right {
