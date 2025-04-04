@@ -322,6 +322,7 @@ p {
   color: white;
   margin-bottom: 10px;
   text-transform: uppercase;
+  text-align: left; /* Change this from 'center' to 'left' */
 }
 #services .service-item p {
   color: white;
@@ -604,6 +605,9 @@ p {
   #footer p {
     font-size: 1.2rem !important; /* Slightly smaller font */
   }
+  #services .service-item h2 {
+    font-size: 1.5rem; /* Even smaller font for mobile devices */
+  }
 }
 /* Mobile-Specific Fixes */
 
@@ -668,7 +672,9 @@ p {
     flex-basis: 100%; /* Full width for service items */
     margin: 10px; /* Adjust margins */
   }
-
+  #services .service-item h2 {
+    font-size: 1.8rem; /* Slightly smaller font for tablets */
+  }
   /* Projects Section */
   #projects .project-item {
     flex-direction: column; /* Stack project info and image vertically */
@@ -736,6 +742,7 @@ p {
   #services .service-bottom .service-item {
     flex-basis: 45%;
     margin: 2.5%;
+    min-height: 400px;
   }
   /* End Services Section */
 
@@ -848,6 +855,7 @@ p {
   #services .service-bottom .service-item {
     flex-basis: 22%;
     margin: 1.5%;
+    min-height: 400px;
   }
 }
 /* End  Media Query For Desktop */
