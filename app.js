@@ -29,7 +29,7 @@ menu_item.forEach((item) => {
 });
 
 // Typewriter Effect
-const texts = ["IT CONSULTANT", "DATA ANALYST", "CLOUD ENGINEER"];
+const texts = ["IT CONSULTANT", "DATA ANALYST", "CLOUD ENGINEER", "PROJECT MANAGER", "AI SPECIALIST"];
 let textIndex = 0;
 let charIndex = 0;
 const speed = 100; // Typing speed
